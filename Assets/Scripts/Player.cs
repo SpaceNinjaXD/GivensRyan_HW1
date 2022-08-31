@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] int _maxHealth = 3;
 
     int _currentHealth;
+    public int score = 0;
 
     TankController _tankController;
 
